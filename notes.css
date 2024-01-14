@@ -1,0 +1,235 @@
+* {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-bOX;
+    color: white;
+}
+#navbar {
+    height: 60px;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 0px;
+}
+.nav-logo{
+    height: 50px;
+    width: 100px;
+
+}
+#acutal-logo{
+ background-image: url("amazon_logo.png");
+ height: 50px;
+ width: 100%;
+ background-size: cover;
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid white;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+.add-1{
+    font-size: 12px;
+    font-weight: lighter;
+    margin-left: 10px
+}
+.add-2{
+    font-size: 14px;
+    font-weight: bold;
+    margin: 3px;
+}
+.nav-search{
+    color: black;
+    display: flex;
+    border: none;
+    border: none;
+    border-radius: 4px;
+}
+#nav-opetion{
+    height: 44px;
+    width: 44px;
+    background-color: rgb(202, 236, 236);
+    color: black;
+    margin-left: 15px;
+    border-top-left-radius: 4px ;
+    border-bottom-left-radius: 4px ;
+    border: none;
+}
+.Search-icon{
+    height: 40px;
+    width: 40px;
+    background-color: rgb(173, 124, 50);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 4px ;
+    border-bottom-right-radius: 4px ;
+    border: 2px solid transparent;
+}
+.fa-solid{
+    vertical-align: middle;
+}
+.placeholder{
+    width: 800px;
+    font-size: 15px;
+    border: none;
+    border: none;
+}
+.nav-opetion{
+    height: 40px;
+    border: none ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    border-top-left-radius: 15%;
+    border-bottom-left-radius: 15%;
+}
+.sign1{
+    font-size: 14px;
+    font-weight: dark;
+}
+.sign2{
+    font-size: 12px;
+   
+}
+.nav-cart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+div
+.nav-cart > i {
+    font-size: 30px;
+}
+.cart{
+    margin-top: 5px;
+}
+.nav-search:hover{
+    border: 2px solid rgb(245, 160, 32);
+
+}
+.navbar2{
+    background-color:#1f4949;
+    color: white;
+    height: 30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    
+}
+.opps{
+    display: flex;
+    margin-left: 10px;
+    
+}
+.menu{
+    padding-left: 5px;
+    padding-bottom: 2px;
+    font-size: 14px;
+}
+.nav2links{
+    display: flex;
+    font-size: 14px;
+    justify-content: center;
+    align-items: center;
+}
+.main-sec{
+    height: 350px;
+    width: 100%;
+    background-image:url("hero_image.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content:center;
+    align-items: end;
+    padding-bottom: 50px;
+}
+.hero-msg{
+    height: 25px;
+    width: 98%;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+    
+
+
+}
+.main-link{
+    text-decoration: none;
+    color: darkblue;
+}
+.shop-list{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(173, 243, 243);
+    height: 250px;
+    width: 100%;
+}
+.list1{
+    height: 200px;
+    width: 20%;
+    background-image: url("box1_image.jpg");
+    background-size: cover;
+}
+.list2{
+    height: 200px;
+    width: 20%;
+    background-image: url("box2_image.jpg");
+    background-size: cover;
+}
+.list3{
+    height: 200px;
+    width: 20%;
+    background-image: url("box3_image.jpg");
+    background-size: cover;
+
+}
+.list4{
+    height: 200px;
+    width: 20%;
+    background-image: url("box4_image.jpg");
+    background-size: cover;
+}
+.shop-listA{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(95, 243, 157);
+    height: 250px;
+    width: 100%;
+}
+.listA{
+    height: 200px;
+    width: 20%;
+    background-image: url("box5_image.jpg");
+    background-size: cover;
+}
+.listB{
+    height: 200px;
+    width: 20%;
+    background-image: url("box6_image.jpg");
+    background-size: cover;
+}
+.listC{
+    height: 200px;
+    width: 20%;
+    background-image: url("box7_image.jpg");
+    background-size: cover;
+
+}
+.listD{
+    height: 200px;
+    width: 20%;
+    background-image: url("box8_image.jpg");
+    background-size: cover;
+}
+
+/*---------------------------Search box------------------------------*/
